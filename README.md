@@ -1,10 +1,24 @@
 # Serverless-User-Data-Retrieval-System
 A serverless, cloud-native web application built using AWS managed services that allows users to retrieve stored user information (name and email) by entering a User ID. The system is designed using a three-tier architecture for scalability, security, and maintainability.
 
+## 📑 Table of Contents
+- [Architecture Diagram]
+- [Project Overview]
+- [Tech Stack]
+- [End-to-End Workflow]
+- [Implementation Steps]
+- [Security Considerations]
+- [Key Features]
+- [Learning Outcomes]
+- [Screenshots]
+- [Author]
+
 Architecture Diagram
 <img width="760" height="510" alt="image" src="https://github.com/user-attachments/assets/bf2e4269-8750-49f8-a81b-9ec0b41c9f75" />
 
+
 Project Overview
+
 This project demonstrates how to build and deploy a fully serverless three-tier web application using AWS managed services.
 
 1.The frontend is developed using HTML, CSS, and JavaScript, hosted in an Amazon S3 bucket, and delivered securely through Amazon CloudFront (Presentation Layer).
@@ -15,6 +29,15 @@ This project demonstrates how to build and deploy a fully serverless three-tier 
 
 Users interact with a simple web UI by entering a User ID.
 The frontend sends a request to an API Gateway endpoint, which triggers a Lambda function to fetch user data from DynamoDB and return it to the UI.
+
+Tech Stack
+
+- **Frontend:** HTML, CSS, JavaScript  
+- **Hosting:** AWS S3, CloudFront  
+- **API:** AWS API Gateway  
+- **Compute:** AWS Lambda (Python)  
+- **Database:** AWS DynamoDB  
+- **Security:** IAM Roles, OAC
 
 End-to-End Workflow
 
