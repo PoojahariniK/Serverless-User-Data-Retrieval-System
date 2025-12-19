@@ -163,6 +163,7 @@ Step 7: S3 Hosting & CloudFront Distribution (Presentation Layer)
 
 <img width="940" height="428" alt="image" src="https://github.com/user-attachments/assets/7259d5a5-b114-4f0f-b5c8-fe29d3d616cb" />
 
+
 Security Considerations
 
 1.Lambda function uses a restricted IAM role
@@ -172,6 +173,7 @@ Security Considerations
 3.CloudFront OAC prevents direct S3 public access
 
 4.Backend services are not directly exposed
+
 
 Key Features
 
@@ -184,6 +186,7 @@ Key Features
 4.Low-latency content delivery via CloudFront
 
 5.Scalable and cost-efficient solution
+
 
 Learning Outcomes
 
@@ -198,6 +201,7 @@ Learning Outcomes
 5.Created S3 bucket, uploaded files and managed ACL for the objects.
 
 6.Hosted and delivered static web content using CloudFront.
+
 
 Author
 
