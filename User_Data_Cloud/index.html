@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>User Data Portal</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="card">
+        <h2>Fetch User Data</h2>
+        <input type="text" id="userId" placeholder="Enter User ID (e.g. 101)">
+        <button onclick="getUserData()">Get User Info</button>
+        
+        <div id="resultCard" style="display:none; margin-top: 20px; text-align: left; border-top: 1px solid #eee; padding-top: 10px;">
+            <p><strong>Name:</strong> <span id="userName"></span></p>
+            <p><strong>Email:</strong> <span id="userEmail"></span></p>
+        </div>
+        <p id="msg"></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
