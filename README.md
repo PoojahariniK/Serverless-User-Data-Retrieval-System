@@ -1,7 +1,7 @@
 # Serverless-User-Data-Retrieval-System
 A serverless, cloud-native web application built using AWS managed services that allows users to retrieve stored user information (name and email) by entering a User ID. The system is designed using a three-tier architecture for scalability, security, and maintainability.
 
-## 📑 Table of Contents
+##  Table of Contents
 - [Architecture Diagram]
 - [Project Overview]
 - [Tech Stack]
@@ -14,6 +14,7 @@ A serverless, cloud-native web application built using AWS managed services that
 - [Author]
 
 Architecture Diagram
+
 <img width="760" height="510" alt="image" src="https://github.com/user-attachments/assets/bf2e4269-8750-49f8-a81b-9ec0b41c9f75" />
 
 
